@@ -1,0 +1,50 @@
+# VPN (Virtual Private Network)
+
+First, you may ask: What is a VPN?
+
+A VPN is a technology that creates a secure connection over an insecure network such as the Internet. It allows users or networks to securely access internal resources.
+
+VPN uses encryption, authentication, and tunneling to create a protected communication channel.
+
+There are different types of VPN:
+
+1. Remote Access VPN (Site-to-Client)
+
+This type allows a user to connect to a private network from a remote location.
+
+For example, an employee who is traveling can connect to the company’s internal network using a VPN.
+
+2. Site-to-Site VPN
+
+This type connects two different networks together through a secure tunnel.
+
+For example, two company branches can communicate securely without requiring each user to connect separately.
+
+VPN protocols:
+
+PPTP:
+- High speed
+- Low security
+- Deprecated and not recommended today
+
+L2TP/IPsec:
+- Provides better security
+- Usually works together with IPsec
+
+SSTP:
+- Uses TLS encryption
+- Provides high security
+- Commonly used in Windows environments
+
+IPsec:
+- A standard protocol for secure communication
+- Commonly used for Site-to-Site VPN connections
+
+IKEv2:
+- A protocol used for managing IPsec connections
+- Good for mobile devices because it handles network changes well
+
+OpenVPN:
+- An open-source VPN protocol
+- Provides strong security
+- Works on different operating systems
