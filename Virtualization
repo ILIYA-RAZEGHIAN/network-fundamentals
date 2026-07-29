@@ -1,0 +1,23 @@
+What is virtualization and what is it used for?
+
+Virtualization allows you to use a powerful server for multiple purposes instead of using it for only one purpose. You can also run different operating systems on it.
+
+Some advantages of virtualization:
+
+- It provides an isolated and secure environment.
+- It has the ability to roll back.
+- It is not limited to hardware.
+- It allows fast installation.
+- It is portable.
+
+The software that runs virtual machines and provides virtualization is called a hypervisor.
+
+Types of virtualization include:
+
+- Server virtualization, like VMware ESXi
+- Desktop virtualization
+- Network virtualization, like GNS3
+- Application virtualization, like Microsoft App-V
+- Storage virtualization, like FreeNAS
+
+I hope this was short and useful.
