@@ -1,0 +1,36 @@
+What is Cloud and why is it good?
+
+In a traditional environment, when you buy a physical server, you have to manage everything by yourself, such as storage, virtualization, operating system, data, RAM, network, and other configurations.
+
+But in Cloud, instead of buying physical hardware, you buy a service. You connect to the service through the Internet, and the Cloud Provider manages most of the infrastructure for you.
+
+For example, with a few clicks you can:
+- Create a virtual machine
+- Install an operating system
+- Create a network
+- Increase or decrease resources
+
+Types of Cloud:
+
+- Private Cloud:
+A cloud environment that is used by only one organization or company.
+
+- Public Cloud:
+A cloud environment available to the public, like Google Cloud, Microsoft Azure, or Amazon AWS.
+
+- Hybrid Cloud:
+A combination of Private Cloud and Public Cloud.
+
+- Community Cloud:
+A shared cloud environment used by several organizations with similar needs.
+
+Cloud Service Models:
+
+- SaaS (Software as a Service):
+The user only uses the software, and the Cloud Provider manages everything behind it.
+
+- PaaS (Platform as a Service):
+A ready platform is provided for developers to build and run applications.
+
+- IaaS (Infrastructure as a Service):
+The provider gives infrastructure resources like virtual machines, storage, and networks, while the user manages more parts of the system.
