@@ -1,0 +1,128 @@
+Network Security Basics
+Types of Attacks
+1. Passive Attack
+In a passive attack, the attacker only listens and collects information.
+The attacker does not change the data.
+Examples:
+- Sniffing
+- Packet capture
+- Traffic monitoring
+Goal:
+- Collect information
+- Read network traffic
+2. Active Attack
+In an active attack, the attacker changes or affects communication.
+Examples:
+- Man-in-the-Middle (MITM)
+- Session hijacking
+- Data modification
+Goal:
+- Modify information
+- Send fake data
+- Control communication
+3. Availability Attack
+The goal of this attack is to make a service unavailable.
+Example:
+- DoS (Denial of Service)
+
+The attacker sends many requests to overload a system.
+
+Example:
+
+User → Server
+
+Many requests → Server overload → Service Down
+
+
+Wireless Attacks
+
+
+War Driving
+
+War driving means searching for wireless networks while moving around an area.
+
+Attackers use tools to:
+- Find WiFi networks
+- Check network security
+
+
+War Chalking
+
+An old method where people used symbols on walls or streets to show the location of wireless networks.
+
+
+Evil Twin
+
+An attacker creates a fake wireless network that looks like a real one.
+
+Example:
+
+Real WiFi:
+CoffeeShop_WiFi
+
+Fake WiFi:
+CoffeeShop_WiFi
+
+If users connect to the fake network, the attacker may monitor their traffic.
+
+
+Bluetooth Attacks
+
+
+Bluejacking
+
+Sending unwanted messages through Bluetooth.
+
+
+Bluesnarfing
+
+Accessing data from a Bluetooth device without permission.
+
+
+Bluebugging
+
+Using Bluetooth vulnerabilities to control a device.
+
+
+WiFi Security Protocols
+
+
+WEP
+
+WEP is an old and insecure wireless security protocol.
+
+Problems:
+- Weak encryption
+- Easy to break with modern attacks
+
+
+WPA
+
+WPA improved security compared to WEP, but it is now outdated.
+
+
+WPA2
+
+WPA2 is widely used and provides better security.
+
+Features:
+- AES encryption
+- Stronger protection than WEP and WPA
+
+
+WPA3
+
+The newest WiFi security standard.
+
+Improvements:
+- Better password protection
+- Stronger security for wireless networks
+
+
+WPS
+
+WPS allows devices to connect to WiFi easily without entering a long password.
+
+The problem is that the WPS PIN method can be vulnerable to brute-force attacks.
+
+Because of security risks, disabling WPS is recommended.
