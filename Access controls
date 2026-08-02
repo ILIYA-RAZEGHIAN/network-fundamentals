@@ -1,0 +1,21 @@
+First, I will start with Access Control.
+Access Control is used to control who can access a resource and what they are allowed to do.
+There are different access control models:
+DAC (Discretionary Access Control)
+The owner of a resource can give permissions to other users.
+For example, the owner can allow someone to view, edit, or access a file.
+MAC (Mandatory Access Control)
+Access is controlled by strict rules and security policies.
+Users cannot change the permissions themselves.
+RBAC (Role-Based Access Control)
+Access is based on a user's role.
+For example, a person in the accounting department may have access to accounting information but cannot access the manager's account.
+Rule-Based Access Control
+Access is controlled by rules.
+For example, an administrator can create rules to allow or deny access in a network.
+ACL (Access Control List)
+An ACL is a list of rules that allows or denies access.
+For example:
+Allow traffic from 192.168.1.10
+Deny traffic from 192.168.1.20
+ACLs can be used on routers, switches, firewalls, and other network devices.
