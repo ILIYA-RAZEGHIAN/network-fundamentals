@@ -1,0 +1,10 @@
+in kerio control if you want to have a simple network
+you need 2 interfaces 1 of them is for your land
+and another is for you wan
+I do it with vmware
+tips-
+-you may see a packet many times in wireshark
+don't be afraid its because wireshark see it many times
+-you can ping a fake device 
+if the messages return the host unreachable  
+the pc send another ping from default getway
