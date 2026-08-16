@@ -1,0 +1,6 @@
+DNS can work with both tcp or udp
+if your DNS replay was to big
+the DNS service will automatically switches to tcp
+if you see for 1 site you have to send many a record 
+it's because of that site is using CName record 
+I find out this today and its very fun
