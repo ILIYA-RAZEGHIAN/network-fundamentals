@@ -1,0 +1,27 @@
+DNS (Domain Name System)
+
+What is DNS?
+
+DNS is a system that, in simple terms, converts a domain name into an IP address.
+
+For example, when you enter:
+
+www.tosinso.com
+
+The browser sends a DNS request to a DNS server, and the DNS server finds the IP address for that domain.
+
+DNS records contain information about services such as mail servers and web servers.
+
+FQDN (Fully Qualified Domain Name)
+
+An FQDN is a complete domain name, for example:
+
+www.example.com.
+
+The final dot represents the Root Level Domain.
+
+.com is the Second-Level Domain.
+
+example is the domain name.
+
+www is the sub domain.
