@@ -1,0 +1,17 @@
+MTU = Maximum Transmission Unit
+MTU is the maximum size of an IP packet that can be transmitted over a network interface/link without fragmentation.
+For example, if MTU = 1500 bytes, an IP packet normally cannot be larger than 1500 bytes on that link.
+If the packet is larger than the MTU:
+IPv4 + DF=0: Large packet → Fragmentation → Multiple smaller fragments
+IPv4 + DF=1: Large packet → Drop → ICMP Fragmentation Needed
+IPv6: Router cannot fragment the packet → Drop → ICMPv6 Packet Too Big
+TCP: TCP usually uses MSS and Path MTU Discovery to choose an appropriate segment size, so fragmentation is normally avoided.
+UDP: UDP does not use MSS. An application can create a large UDP datagram. If the path has a smaller MTU, the datagram may be fragmented in IPv4 or dropped if DF is enabled.
+Important points:
+MTU is measured in bytes.
+MTU is a property of a network interface/link.
+A switch normally does not make packets smaller.
+An IPv4 router can fragment packets.
+Fragments are reassembled at the destination.
+ping -l 4000 in Windows means 4000 bytes of ICMP data, not the total IP packet size.
+Path MTU is the smallest MTU along the entire path.
