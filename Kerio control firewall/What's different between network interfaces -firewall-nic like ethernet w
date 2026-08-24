@@ -1,0 +1,10 @@
+What is the difference between Internet Interface, Ethernet 2, and Firewall when choosing the source in a traffic rule in Kerio?
+
+Internet Interface:
+It means all interfaces that are included in the Internet Interface group.
+
+Ethernet 2:
+It means only when the packet is going in or out through that specific network interface.
+
+Firewall:
+It means when the destination IP address belongs to the Kerio firewall itself.
