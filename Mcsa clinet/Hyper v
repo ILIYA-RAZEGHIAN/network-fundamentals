@@ -1,0 +1,45 @@
+Hyper-V Fundamentals
+
+1. What Is a Hypervisor?
+
+To install and run an operating system, a computer needs hardware resources such as a CPU, RAM, storage, and other devices.
+
+A hypervisor is software that allows us to create and run virtual machines (VMs). It provides virtual hardware resources to each virtual machine so that an operating system can run inside it.
+
+The guest operating system sees virtual hardware instead of directly controlling all the physical hardware.
+
+2. What Is Hyper-V?
+
+Microsoft Hyper-V is a hypervisor developed by Microsoft. It allows us to create and manage virtual machines on a computer.
+
+On supported Windows client editions, such as Pro, Enterprise, and Education, Hyper-V can be enabled through Windows Features.
+
+How to Enable Hyper-V
+
+1. Press "Windows + R".
+2. Type "appwiz.cpl" and press Enter.
+3. Select Turn Windows features on or off.
+4. Find and select Hyper-V.
+5. Click OK and restart the computer if required.
+
+Note: Hyper-V is not available as a built-in feature on Windows Home editions. Availability can depend on the Windows version and edition.
+
+3. Hyper-V Hardware Requirements
+
+The main hardware requirements include:
+
+1. Hardware-assisted virtualization — the processor must support virtualization technology.
+2. Data Execution Prevention (DEP) — a security feature that helps prevent code from running in protected memory regions.
+3. Second Level Address Translation (SLAT) — a processor feature that helps manage memory for virtual machines efficiently.
+4. Virtualization enabled in BIOS/UEFI — the relevant processor virtualization feature must be enabled.
+5. RAM and storage — enough memory and disk space are needed for the host operating system and its virtual machines.
+
+An SSD is useful for better performance, but it is not a strict Hyper-V requirement.
+
+4. Hyper-V Virtual Network Switches
+
+Hyper-V provides three main types of virtual network switches:
+
+- Private — allows communication between virtual machines on the same host. The host operating system cannot communicate through this switch.
+- Internal — allows communication between virtual machines and the host operating system.
+- External — connects virtual machines to the physical network through a physical network adapter. This can allow them to access other network devices and, when the network permits, the internet.
